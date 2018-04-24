@@ -63,15 +63,15 @@
     <h4>调整网页宽高查看边界检测效果</h4>
     <ul class="demo-ul">
       <li @contextmenu="$easycm($event,$root,1)" style="background-color:#509992;">
-        <easy-cm :list="[{text: 'Hello ~'},{text: 'World ~'}]" :tag="1"></easy-cm>
+        <easy-cm :list="[{text: 'Hello '},{text: 'World '}]" :tag="1"></easy-cm>
         最简
       </li>
       <li @contextmenu="$easycm($event,$root,2)" style="background-color:#dd8896;">
-        <easy-cm :list="[{text: 'Hello ~'},{text: 'World ~'}]" :underline="true" :tag="2"></easy-cm>
+        <easy-cm :list="[{text: 'Hello '},{text: 'World '}]" :underline="true" :tag="2"></easy-cm>
         下划线
       </li>
       <li @contextmenu="$easycm($event,$root,3)" style="background-color:#ddc663;">
-        <easy-cm :list="[{text: 'Hello ~'},{text: 'More',children:[{text:'Boen'},{text:'World'}]}]" @ecmcb="test" :underline="true" :arrow="true" :tag="3"></easy-cm>
+        <easy-cm :list="[{text: 'Hello '},{text: 'More',children:[{text:'Boen'},{text:'World'}]}]"  :underline="true" :arrow="true" :tag="3"></easy-cm>
         子层箭头
       </li>
       <li @contextmenu="$easycm($event,$root,4)" style="background-color:#d4b4dd;">
