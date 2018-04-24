@@ -49,17 +49,17 @@ npm install vue-easycm --save
 ```js
 ES6
 
-// 1.通过use挂载
+// 方法1.通过use挂载
 import VueEasyCm from 'vue-easycm'
 Vue.use(VueEasyCm)
 
 
-//  2.通过require 导入
+//  方法2.通过require 导入
 var VueEasyCm = require('VueEasyCm')
 
 
 
-// 3.或者直接导入js文件
+// 方法3.或者直接导入js文件
 <script src="./dist/vue-easycm.js"></script>
 
 ```
@@ -70,7 +70,7 @@ var VueEasyCm = require('VueEasyCm')
 
 
 
-1. 在需要触发 环境菜单 的容器上加上（固定写法）
+1. 在需要触发 环境菜单 的容器标签上加上（固定写法）
 
    例：
 
