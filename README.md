@@ -1,6 +1,3 @@
-[TOC]
-
-
 
 # vue-easycm
 
@@ -29,7 +26,7 @@
   ​
 
 
-> 更多demo:  
+> 更多demo:  http://boenfu.cn/vue-easycm/
 
 
 
