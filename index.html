@@ -64,7 +64,7 @@
     <ul class="demo-ul">
       <li @contextmenu="$easycm($event,$root,1)" style="background-color:#509992;">
         <easy-cm :list="[{text: 'Hello ~'},{text: 'World ~'}]" :tag="1"></easy-cm>
-        基础
+        最简
       </li>
       <li @contextmenu="$easycm($event,$root,2)" style="background-color:#dd8896;">
         <easy-cm :list="[{text: 'Hello ~'},{text: 'World ~'}]" :underline="true" :tag="2"></easy-cm>
@@ -72,7 +72,7 @@
       </li>
       <li @contextmenu="$easycm($event,$root,3)" style="background-color:#ddc663;">
         <easy-cm :list="[{text: 'Hello ~'},{text: 'More',children:[{text:'Boen'},{text:'World'}]}]" @ecmcb="test" :underline="true" :arrow="true" :tag="3"></easy-cm>
-        箭头
+        子层箭头
       </li>
       <li @contextmenu="$easycm($event,$root,4)" style="background-color:#d4b4dd;">
         <easy-cm :list="[{
@@ -86,7 +86,15 @@
       </li>
       <li @contextmenu="$easycm($event,$root,5)" style="background-color:#a5dd68;">
         <easy-cm :list="cmList" :underline="true" :arrow="true" :tag="5"></easy-cm>
-        三层
+        多层菜单
+      </li>
+      <li @contextmenu="$easycm($event,$root,8)" style="background-color:#80a0ff;">
+        <easy-cm :list="cmList" :underline="true" :arrow="true" :tag="8" :offset="{x:20,y:20}"></easy-cm>
+        触发点偏移
+      </li>
+      <li @contextmenu="$easycm($event,$root,9)" style="background-color:#ffb4d2;">
+        <easy-cm :list="cmList" :underline="true" :arrow="true"  :tag="9" :item-width="200" :item-height="50"></easy-cm>
+        选项宽高
       </li>
       <li class="li-6" @contextmenu="$easycm($event,$root,6)" style="background-color:#ffaa5d;">
         <easy-cm :list="cmList" :underline="true" :arrow="true" :tag="6"></easy-cm>
