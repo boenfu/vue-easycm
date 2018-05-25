@@ -1,7 +1,7 @@
 {
   "name": "vue-easycm",
   "description": "easy contextMenu",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "author": "boen <1997@boenfu.cn>",
   "license": "MIT",
   "private": false,
@@ -17,6 +17,10 @@
   "dependencies": {
     "vue": "^2.5.11"
   },
+  "keywords": [
+    "vue",
+    "contextMenu"
+  ],
   "browserslist": [
     "> 1%",
     "last 2 versions",

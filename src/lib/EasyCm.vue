@@ -194,7 +194,7 @@
     transform: translateY(-50%);
   }
   .cm-container {
-    position: absolute;
+    position: fixed;
     user-select: none;
     -ms-user-select: none;
     -webkit-user-select: none;

@@ -7,6 +7,10 @@
 
 
 
+---- 2018年5月25日08:58:15  修复滚动后位置错误
+
+
+
 
 
 ![http://boho.image.alimmdn.com/github/easycmdemo.gif?t=1524493555136](http://boho.image.alimmdn.com/github/easycmdemo.gif?t=1524493555136)
