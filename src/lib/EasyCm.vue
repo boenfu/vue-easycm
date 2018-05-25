@@ -109,17 +109,13 @@
     mounted() {
       this.$root.$on('easyAxis', (axis) => {
         if (axis.tag == this.tag){
-          setTimeout(() => {
             this.show = true
             this.axis = axis
-          },30)
         }
       })
-      document.addEventListener('mouseup', () => {
-        setTimeout(() => {
+      document.addEventListener('mousedown', () => {
           this.show = false
-        },30)
-      }, false)
+      }, true)
     },
     watch: {
       axis() {

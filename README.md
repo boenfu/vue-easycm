@@ -8,6 +8,7 @@
 
 
 ---- 2018年5月25日08:58:15  修复滚动后位置错误
+---- 2018年5月25日15:22:13  调整菜单隐藏事件触发顺序
 
 
 
@@ -70,7 +71,7 @@ var VueEasyCm = require('VueEasyCm')
 
 
 
-###   2.Basic Usage  基础用法 
+###   2.Basic Usage  基础用法
 
 
 
@@ -151,9 +152,9 @@ var VueEasyCm = require('VueEasyCm')
 
 3. ecmcb --> 回调函数
 
-   解释：返回触发的序号数组，便于触发相应逻辑 
+   解释：返回触发的序号数组，便于触发相应逻辑
 
-   如: 
+   如:
 
    ​	[0] 代表第一层的第一项
 
@@ -220,9 +221,9 @@ var VueEasyCm = require('VueEasyCm')
 // gif 图源码
 <template>
   <div id="app" @contextmenu="$easycm($event,$root)">
-    <easy-cm :list="cmList" 
-             @ecmcb="test" 
-             :underline="true" 
+    <easy-cm :list="cmList"
+             @ecmcb="test"
+             :underline="true"
              :arrow="true">
     </easy-cm>
   </div>
