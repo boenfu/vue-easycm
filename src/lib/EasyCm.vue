@@ -113,9 +113,11 @@
             this.axis = axis
         }
       })
-      document.addEventListener('mousedown', () => {
+      for (const e of ['click', 'contextmenu']) {
+        document.addEventListener(e, () => {
           this.show = false
-      }, true)
+        }, true)
+      }
     },
     watch: {
       axis() {
