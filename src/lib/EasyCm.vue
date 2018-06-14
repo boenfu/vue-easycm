@@ -113,7 +113,7 @@
             this.axis = axis
         }
       })
-      document.addEventListener('mousedown', () => {
+      document.addEventListener('click', () => {
           this.show = false
       }, true)
     },
