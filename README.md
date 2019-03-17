@@ -5,16 +5,10 @@
 
 ### 一个简单好用的 VUE 环境菜单 (Context Menu)
 
+![](https://img.shields.io/npm/dw/vue-easycm.svg)
 
 
-| list                                                 |
-| ---------------------------------------------------- |
-| ---- 2018年5月25日08:58:15  修复滚动后位置错误       |
-| ---- 2018年5月25日15:22:13  调整菜单隐藏事件触发顺序 |
-| ---- 2018年6月14日14:51:06  修复回调函数触发问题     |
-
-
-
+> 更多demo:  http://boenfu.github.io/vue-easycm/
 
 
 ![http://boho.image.alimmdn.com/github/easycmdemo.gif?t=1524493555136](http://boho.image.alimmdn.com/github/easycmdemo.gif?t=1524493555136)
@@ -29,12 +23,6 @@
 
 * 边界检测
 
-  ​
-
-  ​
-
-
-> 更多demo:  http://boenfu.cn/vue-easycm/
 
 
 
